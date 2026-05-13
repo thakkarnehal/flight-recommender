@@ -87,12 +87,12 @@ The interaction matrix (cohort × flight item) drives NCF training with 4:1 nega
 
 ## API
 
-**Base URL:** `http://3.86.83.209:8080`
+**Base URL:** `http://44.202.128.221:8080`
 
 ### `POST /recommend`
 
 ```bash
-curl -X POST http://3.86.83.209:8080/recommend \
+curl -X POST http://44.202.128.221:8080/recommend \
   -H "Content-Type: application/json" \
   -d '{
     "freq_tier": "frequent",
@@ -137,7 +137,7 @@ curl -X POST http://3.86.83.209:8080/recommend \
 ### `GET /health`
 
 ```bash
-curl http://3.86.83.209:8080/health
+curl http://44.202.128.221:8080/health
 # {"status":"ok","model":"FlightNCF","device":"cpu"}
 ```
 
