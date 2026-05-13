@@ -2,8 +2,6 @@
 
 Neural Collaborative Filtering model trained on 14M domestic US flights (2024–2025) from the Bureau of Transportation Statistics. Recommends flights based on traveler profile and predicts delay risk — no user history required.
 
-**Live demo:** http://3.86.83.209:8080
-
 ---
 
 ## Architecture
