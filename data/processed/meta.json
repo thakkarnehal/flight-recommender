@@ -1,0 +1,36 @@
+{
+  "n_items": 22780,
+  "n_routes": 5793,
+  "n_carriers": 15,
+  "n_freq": 4,
+  "n_budget": 3,
+  "n_time": 4,
+  "n_season": 4,
+  "n_month": 12,
+  "freq_map": {
+    "low": 0,
+    "medium": 1,
+    "high": 2,
+    "frequent": 3
+  },
+  "budget_map": {
+    "economy": 0,
+    "premium_economy": 1,
+    "business": 2
+  },
+  "time_map": {
+    "morning": 0,
+    "afternoon": 1,
+    "evening": 2,
+    "redeye": 3
+  },
+  "season_map": {
+    "spring": 0,
+    "summer": 1,
+    "fall": 2,
+    "winter": 3
+  },
+  "train_size": 182216,
+  "val_size": 22777,
+  "test_size": 22777
+}
